@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import FeatureCard from "@/components/FeatureCard";
+import MarketPricesTicker from "@/components/MarketPricesTicker";
 import { Brain, Truck, CloudSun, DollarSign, TrendingUp, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroFarm from "@/assets/hero-farm.jpg";
@@ -89,6 +90,13 @@ const Dashboard = () => {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Market Prices Ticker */}
+      <section className="container px-4 py-8">
+        <div className="animate-fade-in">
+          <MarketPricesTicker />
         </div>
       </section>
 
